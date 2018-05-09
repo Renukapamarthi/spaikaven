@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+function validation()
+ var a=document.getElementById(u1).value;
+ var b=document.getElementById(p1).value;
+ if(a==b)
+	 {
+	 alert("welcome to"+user+);
+	 }
+ else
+	 {
+	 alert("error in user please recheck");
+	 }
+</script>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="servlet1" method="Post">
+<table align="center">
+<t >
+<td>username</td>
+<td><input type="text" name="uid" id=u1/></td>
+</tr>
+<tr>
+<td>password</td>
+<td><input type="password" name="pwd" id=p1/></td>
+</tr>
+<tr>
+<td></td>
+<td><input type="submit" value="signup" onclick="validation()"/></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
